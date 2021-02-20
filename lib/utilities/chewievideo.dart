@@ -1,6 +1,5 @@
-import 'package:file_picker/file_picker.dart';
 import 'package:chewie/chewie.dart';
-import 'package:http/http.dart';
+
 import 'package:video_player/video_player.dart';
 import 'package:flutter/material.dart';
 

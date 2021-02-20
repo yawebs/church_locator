@@ -47,7 +47,7 @@ class _FilterChurchesScreenState extends State<FilterChurchesScreen> {
       });
     } else if (widget.churchIp == 4.0) {
       setState(() {
-        churchName = 'Hiltop';
+        churchName = 'hiltop';
       });
     } else if (widget.churchIp == 3.0) {
       setState(() {
@@ -55,7 +55,7 @@ class _FilterChurchesScreenState extends State<FilterChurchesScreen> {
       });
     } else if (widget.churchIp == 2.0) {
       setState(() {
-        churchName = 'Redeemed Christian Church';
+        churchName = 'redeemed Christian Church';
       });
     } else if (widget.churchIp == 1.0) {
       setState(() {
@@ -63,15 +63,9 @@ class _FilterChurchesScreenState extends State<FilterChurchesScreen> {
       });
     } else if (widget.churchIp == 0.0) {
       setState(() {
-        churchName = 'Living Faith Church';
+        churchName = 'LIVING FAITH CHURCH';
       });
     }
-  }
-
-  @override
-  void didChangeDependencies() {
-    // TODO: implement didChangeDependencies
-    super.didChangeDependencies();
   }
 
   @override

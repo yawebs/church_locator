@@ -3,7 +3,7 @@ import 'dart:io';
 import 'package:church_locator/utilities/chewievideo.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
-import 'package:file_picker/file_picker.dart';
+
 import 'package:chewie/chewie.dart';
 import 'package:http/http.dart' as http;
 import 'package:image_picker/image_picker.dart';
